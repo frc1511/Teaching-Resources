@@ -1,1 +1,5 @@
 theme: minima
+minima:
+  skin: classic
+  include_css:
+    - style.css

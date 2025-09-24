@@ -7,3 +7,6 @@ body {
   background-color: light-dark(#efedea, #242424);
   font-family: 'Roboto', monospace;
 }
+.markdown-body {
+  font-family: 'Roboto', monospace;
+}
