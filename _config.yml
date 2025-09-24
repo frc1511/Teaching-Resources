@@ -3,3 +3,5 @@ description: "A collection of teaching resources for FRC team 1511."
 theme: minima
 minima:
   skin: dark
+  include_css:
+   - /css/style.css
