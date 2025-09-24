@@ -1,3 +1,8 @@
+---
+layout: default
+title: Simple Triggers
+---
+
 # Simple Triggers
 So, triggers. How can they be useful? This lab will explore how to use simple triggers.
 MAKE SURE YOU (or your group) HAVE/HAS A LAPTOP!!!

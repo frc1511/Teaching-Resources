@@ -1,7 +1,9 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 :root {
   color-scheme: light dark;
 }
 body {
   color: light-dark(#333b3c, #efefec);
-  background-color: light-dark(#efedea, #223a2c);
+  background-color: light-dark(#efedea, #242424);
+  font-family: 'Roboto', monospace;
 }
