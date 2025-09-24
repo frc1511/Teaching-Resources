@@ -9,4 +9,6 @@ body {
 }
 .markdown-body {
   font-family: 'Roboto', monospace;
+  color: light-dark(#333b3c, #efefec);
+  background-color: light-dark(#efedea, #242424);
 }
