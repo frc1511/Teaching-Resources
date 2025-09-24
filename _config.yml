@@ -1,8 +1,6 @@
 title: "Learning Resources"
 description: "A collection of teaching resources for FRC team 1511."
 remote_theme: jekyll/minima@3cdd14d
-  include_css:
-   - /css/style.css
 
 plugins:
 - jekyll-remote-theme
