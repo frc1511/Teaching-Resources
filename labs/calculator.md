@@ -25,16 +25,13 @@ void  coolFunc() {
 
 Ok, now, how do we call it? Let’s first create a controller object, called `driverController`. This object has many methods, but we mainly care about the buttons, which are simple. 
 
-`driverController.b()` is used to query the b button being held. However, you’ll notice it doesn’t return a `bool`, it returns a `Trigger`. This is very convenient.
-
-
-`Trigger`s have some methods that let us use these things called `Commands`. `Command`s are the essential part of running a robot. We need to create a command using our function, `coolFunc`. The easiest way to do this is through something called an `InstantCommand`. 
+`driverController.b()` is used to query the b button being held. However, you’ll notice it doesn’t return a `bool`, it returns a `Trigger`. This is very convenient, because `Trigger`s have some methods that let us use these things called `Commands`. `Command`s are the essential part of running a robot. We need to create a `Command` using our function, `coolFunc`. The easiest way to do this is through something called an `InstantCommand`. 
 
 ```java
 InstantCommand coolCommand = new InstantCommand(coolFunc); 
 ```
 
-This runs whatever function you pass in (in this case, coolFunc) and executes it instantly. However, there is another way you can create commands that helps our situation better. It looks kinda wack though.
+This runs whatever function you pass in (in this case, coolFunc) and executes it instantly. However, there is another way you can create `InstantCommand`s that helps our situation better. It looks kinda wack though.
 
 ```java
 new InstantCommand(() -> coolFunc()); 
@@ -47,3 +44,17 @@ You can then throw this into one of our Trigger’s methods like so:
 ```java
 driverController.b().onTrue(new InstantCommand(()->coolFunc())); 
 ```
+
+We'll do this in our `RobotContainer.java`, in `configureBindings`. This will bind the `Command` that runs our function, `coolFunc` to the start of the `b` button being held. There are a lot of methods similar to `Trigger.onTrue` to be used for any need. You can see `Trigger` documentation [here](https://github.wpilib.org/allwpilib/docs/release/java/edu/wpi/first/wpilibj2/command/button/Trigger.html).
+
+Now for the hard part.
+
+### Your task:
+Create a basic calculator that allows for basic input using buttons on a controller. You can use any buttons you want, but the base functionality you need is:
+ - An Add button
+ - A Subtract button
+ - A Multiply button
+ - A Divide button
+ - At least two number buttons OR at least two predefined numbers
+
+Test your program! Does it work? Raise your hand if you need help.
