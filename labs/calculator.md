@@ -2,7 +2,7 @@
 layout: default
 title: Simple Triggers
 ---
-# **WIP**{: style="color: #FF0000"}
+
 # Calculator
 In this lab, you will create a primitive calculator using a <ps4, Xbox> controller. 
 ### Prelab question:

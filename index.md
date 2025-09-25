@@ -8,3 +8,6 @@ title: Teaching Resources
 ### Labs:
 [Simple Triggers](./labs/simple-triggers.html)
 [Calculator](./labs/calculator.html)
+
+### Lessons:
+[Types](./lessons/types.html)

@@ -1,9 +1,13 @@
 title: Teaching Resources
-description: >-
-  A collection of teaching resources for FRC team 1511.
+description: A collection of teaching resources for FRC team 1511.
 
 url: https://frc1511.github.io
 baseurl: /Teaching-Resources
+
+markdown: kramdown
+highlighter: rouge
+kramdown:
+  input: GFM
 
 theme: minima
 plugins:
