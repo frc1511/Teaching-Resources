@@ -2,7 +2,7 @@ title: Teaching Resources
 description: >-
   A collection of teaching resources for FRC team 1511.
 
-baseurl: /Teaching-Resources/
+baseurl: https://frc1511.github.io/Teaching-Resources/
 
 theme: minima
 plugins:
