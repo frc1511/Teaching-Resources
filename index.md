@@ -1,0 +1,10 @@
+---
+layout: default
+title: Teaching Resources
+---
+
+# Teaching resources
+
+### Labs:
+[Simple Triggers](/labs/simple-triggers.html)
+[Calculator](/labs/calculator.html)

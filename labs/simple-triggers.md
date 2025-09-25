@@ -9,7 +9,11 @@ MAKE SURE YOU (or your group) HAVE/HAS A LAPTOP!!!
 ### Prelab question:
 1. What is a condition/Boolean? What values can it have?
 
+```
 
+
+
+```
 
 ### Lab:
 You will be using digitalInput in the first part of this lab. Here is how you set that up:
@@ -49,6 +53,13 @@ Did it work?
 If not, you can always edit your program to fix it! Ask for help if you get stuck, no one is judging you.
 ### Final Questions
 1.	What type of function do triggers need when created?
+	```
 
+	```
 
 2.	How can you see whether a trigger is triggered?
+	```
+
+
+
+	```
