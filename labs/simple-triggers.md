@@ -9,11 +9,6 @@ MAKE SURE YOU (or your group) HAVE/HAS A LAPTOP!!!
 ### Prelab question:
 1. What is a condition/Boolean? What values can it have?
 
-```
-
-
-
-```
 
 ### Lab:
 You will be using digitalInput in the first part of this lab. Here is how you set that up:
@@ -29,8 +24,7 @@ This will store the value of whatever the limit switch thinks its state is in th
 Task: Create a limitSwitch object, then create a `Trigger` for when the limitSwitch trips.
 > Hint: You need to use `limitSwitch::get()` at some point. (This returns a bool).
 
-> [!NOTE]
-> STOP!
+> # STOP!
 
 At this point, stop what you are doing and raise your hand. Someone will be around shortly to check your work. We will move on once everyone reaches this point.
 

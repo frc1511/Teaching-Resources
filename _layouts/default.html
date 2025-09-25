@@ -4,14 +4,27 @@
     <meta charset="UTF-8">
     <title>{{ page.title | escape }} | {{ site.title | escape }}</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="{{ "/assets/css/styles.css" | relative_url }}">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.11.1/styles/github-dark-dimmed.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.11.1/highlight.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.11.1/languages/java.min.js"></script>
+  
   </head>
-  <body>
-    <div class="sidebar">
-      <a href="../index.html">Main Page</a>
+  <body class="bg-zinc-900 !text-white">
+    <div class="p-3 px-5 bg-zinc-800 rounded-full m-3 flex gap-3">
+      <a href="../index.html" class="text-blue-500">1511 Teaching Resources</a>
     </div>
-    <main class="markdown-body">
+    <main class="mdStyle m-3">
       {{ content }}
     </main>
+    <script defer>
+      document.addEventListener('DOMContentLoaded', (event) => {
+        document.querySelectorAll('pre code, code').forEach((el) => {
+          el.classList.add("language-java")
+          hljs.highlightElement(el);
+        });
+      });
+    </script>
   </body>
 </html>

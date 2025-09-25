@@ -2,23 +2,17 @@
 layout: default
 title: Simple Triggers
 ---
-# **WIP**{: style="color: #FF0000"}
 # Calculator
 In this lab, you will create a primitive calculator using a <ps4, Xbox> controller. 
 ### Prelab question:
 1.     How do you initialize a controller?
 
-```
-
-
-
-```
 
 ### Lab:
 It’s time to learn about `Trigger` Binding. You’ve learned how to check if a `Trigger` is being triggered, but now you need to do something when the `Trigger` is triggered. You first need to write a function that will execute some code. Let’s call our function `coolFunc`. 
 
 ```java
-void  coolFunc() { 
+void coolFunc() { 
 	SmartDashboard.putString(“Cool String”, “Hello”); 
 } 
 ```
