@@ -1,0 +1,122 @@
+@import "tailwindcss";
+
+@plugin "@tailwindcss/typography";
+
+/* Custom typography styles */
+@utility mdStyle {
+  & h1 {
+    font-size: 2.5rem;
+    margin-top: 1.5rem;
+    font-weight: bold;
+  }
+
+  & blockquote:has(> h1) {
+    color: var(--color-red-500);
+    margin: 0rem;
+    padding: 1rem;
+    border: 1px solid var(--color-red-500);
+    text-align: center;
+  }
+
+  & blockquote > h1 {
+    margin-top: 0rem;
+  }
+
+  & h2 {
+    font-size: 1.65rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1.25rem;
+    font-weight: bold;
+  }
+
+  & h3 {
+    font-size: 1.4rem;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+  }
+
+  & h4 {
+    font-size: 1.1rem;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+  }
+
+  & h5 {
+    font-size: 0.875rem;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+  }
+
+  & h6 {
+    font-size: 0.75rem;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+  }
+
+  & p {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-size: 1.1rem;
+    color: var(--color-zinc-300);
+  }
+
+  & code::before,
+  & code::after {
+    content: none;
+  }
+
+  & code {
+    background-color: var(--color-black);
+    padding: 0.1rem 0.4rem;
+    border-radius: 0.2rem;
+  }
+
+  & pre > code {
+    padding: 0px;
+  }
+
+  & pre {
+    width: 100%;
+    background-color: var(--color-black);
+  }
+
+  & strong {
+    font-weight: bold;
+  }
+
+  & li {
+    margin: 0.1rem 0 0.1rem 1.5rem;
+  }
+
+  & ul {
+    list-style-type: disc;
+  }
+
+  & blockquote {
+    font-size: 1.1rem;
+    margin: 1rem 0;
+    padding: 0.5rem;
+    padding-left: 1rem;
+    border: 1px solid #3d3d3d;
+    quotes: none;
+  }
+
+  & tbody tr {
+    border-bottom-width: 0;
+  }
+
+  & thead {
+    border-bottom: none;
+  }
+
+  & thead th,
+  & th {
+    font-weight: bold;
+    padding: 0.5rem;
+    font-size: 1.1rem;
+  }
+}
