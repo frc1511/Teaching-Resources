@@ -2,7 +2,8 @@
 layout: default
 title: Functions in classes
 ---
-# Functions in classes ✨Java
+# Functions in classes
+> # WIP
 In this lesson we will learn more about functions in Java and in particular, how they work in classes.
 ## Let's look at some functions
 ```java
@@ -51,7 +52,7 @@ private boolean isGamePiecePresent() {
 Above is a example of how functions might be used. You can see that it will return a boolean of whatever the `retroReflectiveGP` sensor sees. Because it uses private, you would not be able to call this function to get weather the gp is present from outside the class.
 
 ```java
-class Elevator extends SubsystemBase {
+public class Elevator extends SubsystemBase {
     private DigitalInput retroReflective;
     private Encoder encoder;
 

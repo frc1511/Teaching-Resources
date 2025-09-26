@@ -10,6 +10,7 @@ title: Teaching Resources
 - [Calculator](./labs/calculator.html)
 
 ### Lessons:
+- [Hello World](./lessons/hello-world.html)
 - [Types](./lessons/types.html)
 - [Logic](./lessons/logic.html)
 - [Functions in Classes](./lessons/functions-in-classes.html)
