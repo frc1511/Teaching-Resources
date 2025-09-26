@@ -96,15 +96,5 @@ System.out.println(greeting);
 ```
 In the next lesson, you're going to learn about what the `int` and `String` are.
 
-## Assides
-[^1]: Code snippits
-
-Something that always bothered me about learning to program was that they never put where the code actually went. I can see why in hindsight, but I figured I would tell you where code snippits go. In the first code snippit, it's the entire file, you can copy and paste that into a main.java and run it. But for the rest you can't just do that. The 2nd snippit of code is of a function definition, when you see code with definitions like that, you can assume it came from inside of a class. When you don't see any function definitions, it most likely came from inside of a function. In our case, besides the 1st and 2nd snippits, the rest is from within the main function. So the entire file would look like so:
-```java
-public class Main {
-  public static void main(String[] args) {
-    int x = 6 + 7;
-    System.out.println(x);
-  }
-}
-```
+[^1]: Code snippits  
+Something that always bothered me about learning to program was that they never put where the code actually went. I can see why in hindsight, but I figured I would tell you where code snippits go. In the first code snippit, it's the entire file, you can copy and paste that into a main.java and run it. But for the rest you can't just do that. The 2nd snippit of code is of a function definition, when you see code with definitions like that, you can assume it came from inside of a class. When you don't see any function definitions, it most likely came from inside of a function. In our case, besides the 1st and 2nd snippits, the rest is from within the main function.
