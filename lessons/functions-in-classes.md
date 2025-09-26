@@ -1,3 +1,7 @@
+---
+layout: default
+title: Functions in classes
+---
 # Functions in classes ✨Java
 In this lesson we will learn more about functions in Java and in particular, how they work in classes.
 ## Let's look at some functions
@@ -79,4 +83,5 @@ void somewhereElseInTheCode()  {/* Somewhere else in the code */
     boolean smh = elevator.isAtUpperLimit(); // Error (it's private)
 }
 ```
+
 Above is a example of a class with public and private variables and functions. 
