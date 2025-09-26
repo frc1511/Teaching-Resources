@@ -118,6 +118,18 @@
     padding: 0.5rem;
     font-size: 1.1rem;
   }
+
+  & .footnotes {
+    @apply border-t border-zinc-500;
+  }
+
+  & .footnotes li {
+    margin: 0px;
+  }
+
+  & .footnotes p {
+    @apply !text-zinc-600 text-sm;
+  }
 }
 
 @import "./homepage.css"
