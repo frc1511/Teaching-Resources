@@ -6,9 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="{{ "/assets/css/styles.css" | relative_url }}">
   </head>
-  <body class="bg-zinc-900 !text-white m-5">
-    <main class="mdStyle">
+  <body class="bg-zinc-900 !text-white max-w-4xl mx-auto lg:my-8 p-5">
+    <main class="homepage">
       {{ content }}
     </main>
+    <script defer>
+      document.querySelectorAll('a').forEach(link => {
+        link.addEventListener('click', event => {
+          event.currentTarget.classList.add('clicked');
+        });
+      });
+    </script>
   </body>
 </html>
