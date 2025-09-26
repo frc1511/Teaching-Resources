@@ -1,3 +1,7 @@
+---
+layout: default
+title: Hello World
+---
 # Hello World
 > # WIP
 
@@ -21,11 +25,11 @@ Hello World
 
 The code above, when run, will display "Hello World" in the terminal. Although not the most exciting result, the code to do it might look intimidating. Let's discuss what is going on here.
 
-##### Curly Braces
+#### Curly Braces
 Curly braces `{}` define code blocks. There are 2 sets of them in this program. They are meant to encapsulate code within a program.
-##### Classes
+#### Classes
 Every line of code needs to reside within a class. Classes are named the same as the file they reside in. In our case, that's `Main`, for `main.java`, with a capital `M` because of the fact that classes must always start with a capital letter. It's also important to note that java is case sensitive, `Hello` and `hello` are not the same thing.
-##### Main method
+#### Main method
 The main method is where code starts running.
 ```java
 public static void main(String[] args) {
@@ -33,7 +37,7 @@ public static void main(String[] args) {
 }
 ```
 For right now, don't worry about `public`, `static`, `void` and all the extra fluff. What's important right now is that you understand that code starts executing from inside the main method.
-##### Statements
+#### Statements
 This is what you are probably thinking about when you think of code. It's what actually gets executed, it's the instructions that are run. In this program, we have exactly one:
 ```java
 System.out.println("Hello World");
