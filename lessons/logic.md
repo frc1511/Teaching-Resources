@@ -3,7 +3,7 @@ layout: default
 title: Logic
 ---
 
-# **WIP**{: style="color: #FF0000"}
+> # WIP
 
 # Logic
 
@@ -26,6 +26,19 @@ Here are some comparison operators:
  - `||`: Or (True: `(1 == 1) || (2 != 2)`, checks if 1 is equal to 1 **or** 2 is equal to 2)
  - `^`: Xor (True: `(1 == 1) ^ (2 != 2)`, True if **only one** of the conditions is true)
 
+### Here's some examples:
+```java
+if (motorRunning && desiredMotorState == MotorState.kSTOP) {
+    motor.Set(0);
+    currentMotorState = MotorState.kSTOP;
+}
+```
+```java
+if (elevator.atBottomHardStop() || elevator.atUpperHardStop()) {
+    motor.Set(0);
+    currentMotorState = MotorState.kSTOP;
+}
+```
 ##### For loops
 ```java
 for (int i = 0; i < 5; i++) {
