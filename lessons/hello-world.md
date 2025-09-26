@@ -1,5 +1,6 @@
 # Hello World
 > # WIP
+
 In the first lesson here, we'll learn the basics of Java syntax.
 
 ## The First Program

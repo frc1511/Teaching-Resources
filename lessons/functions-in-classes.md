@@ -4,6 +4,7 @@ title: Functions in classes
 ---
 # Functions in classes
 > # WIP
+
 In this lesson we will learn more about functions in Java and in particular, how they work in classes.
 ## Let's look at some functions
 ```java
