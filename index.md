@@ -11,3 +11,5 @@ title: Teaching Resources
 
 ### Lessons:
 - [Types](./lessons/types.html)
+- [Logic](./lessons/logic.html)
+- [Functions in Classes](./lessons/functions-in-classes.html)
