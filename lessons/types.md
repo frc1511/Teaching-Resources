@@ -7,20 +7,13 @@ title: Types
 
 ##### **So, what are types?**
 
-Types are these indicators of, well, type. A real world example could be the type `Car`. You probably know what a car is, but there are many different cars out there. In programming, they might all have the type of `Car`. In code this might look something like this:
-
-```java
-Car toyota = new Car();
-Car ford = new Car();
-```
-
-Ok, let's dive into this line. The start of the line is `Car`. That's our type. It tells the computer that this variable (`toyota` or `ford`) is going to be a car. Then comes the name, which is what the variable is called. Next is `=`, the assignment operator. It tells the computer that what comes next is what should be stored in the variable. Finally, the `new Car()`. This is a little more advanced, so let's talk about a different example with a simpler type.
+Types are these indicators of, well, type. A real world example could be the type `Car`. You probably know what a car is, but there are many different cars out there. In programming, they might all have the type of `Car`. You would need to specify this at the start of the line. Then, you would name your variable, maybe something like `toyota` or `ford`. At this point the compiler knows that your variable (let's say, `ford`) will have the type `Car`. Next we can put the assignment operator, `=`. The compiler knows that stuff after the `=` will be 'assigned' to `ford`, and it should have the type `Car`. Let's go over an example with a simple type that we use quite a bit.
 
 ```java
 boolean correct = true;
 ```
 
-This example's type is `boolean`. Boolean (or bool) values can hold either `true`, or `false`. This is seen with `= true`. Anything other than valid values on the right side of that `=` will probably cause an error. Let's go over some more simple types.
+This example's type is `boolean`. Boolean (also known as bool) values can hold either `true`, or `false`. This is seen with `= true`. Anything other than valid values on the right side of that `=` will probably cause an error. Let's go over some more simple types.
 
 ```java
 int number = 3;
