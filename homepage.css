@@ -6,6 +6,12 @@
   & h2, & h3 {
     @apply text-zinc-400 font-semibold mt-8 mb-4 text-lg;
   }
+  & h6 {
+    font-size: 0.75rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    color: var(--color-zinc-500);
+  }
   & ul {
     @apply list-none p-0 mb-8;
   }
