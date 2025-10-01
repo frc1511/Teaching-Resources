@@ -52,8 +52,12 @@
   & h6 {
     font-size: 0.75rem;
     margin-top: 1rem;
-    margin-bottom: 0.5rem;
-    font-weight: bold;
+    margin-bottom: 1rem;
+    color: var(--color-zinc-500);
+  }
+
+  & h6 a {
+    color: var(--color-blue-500);
   }
 
   & p {
@@ -92,7 +96,11 @@
   }
 
   & ul {
-    list-style-type: disc;
+    @apply list-disc;
+  }
+
+  & ol {
+    @apply list-decimal;
   }
 
   & blockquote {
