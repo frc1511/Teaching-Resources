@@ -4,6 +4,7 @@ title: Teaching Resources
 ---
 
 # Teaching resources
+###### This entire site is a work in progress and is not final
 
 ### Labs:
 - [Simple Triggers](./labs/simple-triggers.html)
