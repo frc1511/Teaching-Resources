@@ -3,8 +3,6 @@ layout: default
 title: Hello World
 ---
 # Hello World
-> # WIP
-
 In the first lesson here, we'll learn the basics of Java.
 
 ## The First Program
@@ -63,37 +61,23 @@ Next, let's make it a bit more complicated. Look at the next piece of code, befo
 ```java
 System.out.println(6 + 7);
 ```
-What it puts on the screen is the number `13`, which you probably guessed it would do. What you can learn from this is that you can do some math in java like so.
-### Comments rq
-To leave a comment on a line of code in Java, you can put a `//` before it and the rest of line will be the comment.
+What it puts on the screen is the number `13`, which you probably guessed it would do. What you can learn from this is that you can do some math in java by using some basic symbols. Here's some more examples:
 ```java
-System.out.println(2 * 3); // Prints 6
-System.out.println("Do I have rizz?"); 
-// This code won't run because its in a comment
-// System.out.println("I don't run");
+System.out.println(5 * 3 + 1);         // Prints 16
+
+System.out.println(6 / 2 * (1 + 2));   // Prints 9
 ```
-### Quick intro to variables
-We'll be exploring variables more in depth later (in fact it's the next lesson), but I'd like to at least introduce you to them.
+## Comments
+I've also included comments the previous example, any text put after a `//` will not be run. It's helpful for describing what code does inline without having to create a word doc or something. You'll see them all the time in code snippets to tell you what going on but later on, we'll start to not write as many because they will get redundant. In the robot's code, we'll normally write them to explain complicated logic or strange decisions. You can do multi line comments like so, if you would like.
 ```java
-int x = 6 + 7;
-System.out.println(x);
+/* The following line will do the following:
+1. Add 6 and 4 to create 10
+2. Multiply that by 9 to create 90
+3. Subtract 9 to create 81
+4. Display 81 to the screen
+*/
+System.out.println(9 * (6 + 4) - 9);
 ```
-The code you see above achieves exactly the same result as before, printing `13`. However, as you can see, it assigns it to a variable first. We're going to skip the `int` part for now, but you can see that the variable x is assigned the result of the evaluated expression to the right. You can think of them as variables from math, except they always have a value.
-
-Below here are a few more examples to get you used to them.
-```java
-int x = 5 * 3 + 1;
-System.out.println(x);   // Prints 16
-
-int y = 6 / 2 * (1 + 2); // Do it pemdas?
-System.out.println(x);   // It does, prints 9
-
-int sum = x + y;
-System.out.println(sum); // Prints 25
-
-String greeting = "Welcome to programming preseason";
-System.out.println(greeting);
-```
-In the next lesson, you're going to learn about what the `int` and `String` are.
+It's `/*` to start a comment and `*/` to end the multi-line comment. Anything in-between will be a comment.
 
 [^1]: (1) Code snippits - Something that always bothered me about learning to program was that they never put where the code actually went. I can see why in hindsight, but I figured I would tell you where code snippits go. In the first code snippit, it's the entire file, you can copy and paste that into a main.java and run it. But for the rest you can't just do that. The 2nd snippit of code is of a function definition, when you see code with definitions like that, you can assume it came from inside of a class. When you don't see any function definitions, it most likely came from inside of a function. In our case, besides the 1st and 2nd snippits, the rest is from within the main function.
