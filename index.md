@@ -12,6 +12,7 @@ title: Teaching Resources
 
 ### Lessons:
 - [Hello World](./lessons/hello-world.html)
+- [Variables](./other/variables.html)
 - [Types](./lessons/types.html)
 - [Logic](./lessons/logic.html)
 - [Functions in Classes](./lessons/functions-in-classes.html)
