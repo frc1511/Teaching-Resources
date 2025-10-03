@@ -27,6 +27,22 @@ Here are some comparison operators:
 
 ### Here's some examples:
 ```java
+// Reads like: "if one plus one equals two"
+if (1 + 1 == 2) {
+    System.out.println("Math is mathin'");
+}
+
+// Reads like: "if one plus one does not equal two"
+if (1 != 2) {
+    System.out.println("Cool bro");
+}
+
+// Reads like: "if one plus one equals two and three plus three equals six"
+if (1 + 1 == 2 && 3 + 3 == 6) {
+    System.out.println("Math is still mathin'");
+}
+```
+```java
 if (motorRunning && desiredMotorState == MotorState.kSTOP) {
     motor.Set(0);
     currentMotorState = MotorState.kSTOP;
@@ -38,6 +54,8 @@ if (elevator.atBottomHardStop() || elevator.atUpperHardStop()) {
     currentMotorState = MotorState.kSTOP;
 }
 ```
+### A Amendum for Non-Primative Types (For Those Who Care)
+Due to the way that java works, when you compare a non-primative type to anything else you are not comparing the value of the variable, but insted the address to the memory of the variable. Some of the consequences of this are that code like `String("abc") == "abc"` are false (String is a non primative type). For strings and others, you can do `String("abc").equals("abc")` to get it to work.
 ##### For loops
 You can use loops to run code more than once without copy+pasting 800 lines. A straightforward way to do this is a `for` loop. `for` loops run a pre-specified amount of times, defined in the parentheses after `for`. A common syntax you will see is defining a new variable (often `i`), then setting a condition (while `i` is less than `5`), and setting a rule to be followed every loop (commonly `i++`, which increments `i` by 1).
 
