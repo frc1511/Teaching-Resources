@@ -42,6 +42,13 @@ if (1 + 1 == 2 && 3 + 3 == 6) {
     System.out.println("Math is still mathin'");
 }
 ```
+Variables can be used in `if` statements as well, assuming that they are `boolean`'s.
+```java
+boolean valid = 1 == 1;
+if (valid) {
+    System.out.println("1 == 1 Yay");
+}
+```
 ```java
 if (motorRunning && desiredMotorState == MotorState.kSTOP) {
     motor.Set(0);
