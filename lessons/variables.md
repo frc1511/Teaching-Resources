@@ -21,7 +21,7 @@ This is what the value is stored to, you use this name to reference its value
 3. The value  
 This is what the variable stores, it will be of the same type of the variable
 
-They get arranged like so:
+The parts get arranged like so:
 ```java
 type name = value;
 ```
@@ -32,8 +32,8 @@ type name;
 ```
 If you use this, I would expect that you give it a value soon afterwards.
 
-
 ## Some Examples
+
 If I wanted to make a variable called `message` with a type of `String` and a value of `Hello World` I could do the following.
 ```java
 String message = "Hello World";
@@ -70,7 +70,7 @@ number = 67;                // Changes number to 67
 System.out.println(number); // Prints 67
 ```
 ### Using Variables
-Variables are useful in that they act as their value, here's some examples of variables being used.
+Variables are useful in that they act as their value. Here are some examples of variables being used.
 ```java
 double x = 0.4d + 12.1d;    // After the =, we can put any expression that gives us a value, for example, math operations
 

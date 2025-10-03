@@ -10,18 +10,22 @@ You hopefully know what a function is from various math classes over the years. 
 
 ![A desmos graph showing f(x) = 3x](../assets/images/desmos-graphs-simple-functions.png)
 
-This function's y value is always equal to 3 times its x value. Let's see what this would look like in Java.
+This function's y value is always equal to 3 times its x value.
+
+## Java Function
+
+Let's see what that function would look like in Java.
 
 ```java
 double f(double x) {
-    return x * 3.0;
+    return x * 3.0d;
 }
 ```
 
 The first `double` represents the `return` type. This is to signify that the function `return`s a decimal value. `f` is our name. You would usually use something more descriptive such as `triple`. The `double x` is the argument, we specify type and name. It's the x in f(x). The `{ ... }` shows the inside of the function, anything in here happens when the function is 'called'. `return` is often the final line of functions. That's where you put whatever you want to come out of the function, a `double` in our case. `return` additionally ends a functions processing and 'return's to wherever you call it from. Let's see why we want a `return`.
 
 ```java
-double startNumber = 6.0;
+double startNumber = 6.0d;
 
 double endNumber = f(startNumber); // This will evaluate to 18.0
 ```
@@ -31,8 +35,8 @@ This hopefully explains functions. Some more examples are below:
 // Return the absolute value of a number
 double absoluteValue(double number) {
     double finalNumber = number
-    if (number < 0.0) {
-        finalNumber *= -1;
+    if (number < 0.0d) {
+        finalNumber *= -1.0d;
     }
     return finalNumber;
 }

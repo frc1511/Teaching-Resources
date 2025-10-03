@@ -50,7 +50,7 @@ private boolean isGamePiecePresent() {
     return retroReflectiveGP.get();
 }
 ```
-Above is a example of how functions might be used. You can see that it will return a boolean of whatever the `retroReflectiveGP` sensor sees. Because it uses private, you would not be able to call this function to get weather the gp is present from outside the class.
+Above is a example of how functions might be used. You can see that it will return a boolean of whatever the `retroReflectiveGP` sensor sees. Because it uses private, you would not be able to call this function to get whether the gamepiece is present from outside the class.
 
 ```java
 public class Elevator extends SubsystemBase {

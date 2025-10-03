@@ -21,7 +21,7 @@ Output
 Hello World
 ```
 
-The code above, when run, will display "Hello World" in the terminal. Although not the most exciting result, the code to do it might look intimidating. Let's discuss what is going on here.
+The code above, when ran, will display "Hello World" in the terminal. Although not the most exciting result, the code to do it might look intimidating. Let's discuss what is going on here.
 
 ##### Curly Braces
 Curly braces `{}` define code blocks. There are 2 sets of them in this program. They are meant to encapsulate code within a program.
@@ -40,7 +40,7 @@ This is what you are probably thinking about when you think of code. It's what a
 ```java
 System.out.println("Hello World");
 ```
-What this line does it put what's between the parentheses onto the screen. In this case `"Hello World"`, which is what we see when we run the program.
+This line puts what's between the parentheses onto the screen. In this case, `"Hello World"`, which is what we see when we run the program.
 
 At the end of every statement, we put a semicolon `;` to tell the computer that our statement is complete.
 

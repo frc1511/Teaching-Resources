@@ -25,7 +25,7 @@ Here are some comparison operators:
  - `||`: Or (True: `(1 == 1) || (2 != 2)`, checks if 1 is equal to 1 **or** 2 is equal to 2)
  - `^`: Xor (True: `(1 == 1) ^ (2 != 2)`, True if **only one** of the conditions is true)
 
-### Here's some examples:
+### Here are some examples:
 ```java
 // Reads like: "if one plus one equals two"
 if (1 + 1 == 2) {
@@ -42,7 +42,9 @@ if (1 + 1 == 2 && 3 + 3 == 6) {
     System.out.println("Math is still mathin'");
 }
 ```
-Variables can be used in `if` statements as well, assuming that they are `boolean`'s.
+
+Variables can be used in `if` statements as well, as long as they are `boolean`'s.
+
 ```java
 boolean valid = 1 == 1;
 if (valid) {
@@ -61,8 +63,8 @@ if (elevator.atBottomHardStop() || elevator.atUpperHardStop()) {
     currentMotorState = MotorState.kSTOP;
 }
 ```
-### A Amendum for Non-Primative Types (For Those Who Care)
-Due to the way that java works, when you compare a non-primative type to anything else you are not comparing the value of the variable, but insted the address to the memory of the variable. Some of the consequences of this are that code like `String("abc") == "abc"` are false (String is a non primative type). For strings and others, you can do `String("abc").equals("abc")` to get it to work.
+### A Addendum for Non-Primative Types (For Those Who Care)
+Due to the way that java works, when you compare a non-primative type to anything else you are not comparing the value of the variable, but insted the address to the memory of the variable. Some of the consequences of this is that code like `String("abc") == "abc"` is false (String is a non primative type). For strings and others, you can do `String("abc").equals("abc")` to get it to work.
 ##### For loops
 You can use loops to run code more than once without copy+pasting 800 lines. A straightforward way to do this is a `for` loop. `for` loops run a pre-specified amount of times, defined in the parentheses after `for`. A common syntax you will see is defining a new variable (often `i`), then setting a condition (while `i` is less than `5`), and setting a rule to be followed every loop (commonly `i++`, which increments `i` by 1).
 

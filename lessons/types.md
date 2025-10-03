@@ -13,7 +13,7 @@ Types are these indicators of, well, type. A real world example could be the typ
 boolean correct = true;
 ```
 
-This example's type is `boolean`. Boolean (also known as bool) values can hold either `true`, or `false`. This is seen with `= true`. Anything other than valid values on the right side of that `=` will probably cause an error. Let's go over some more simple types.
+This example's type is `boolean`. Boolean (also known as bool) values can hold either `true`, or `false`. This is seen with `= true`. Anything other than true or false values on the right side of that `=` will probably cause an error. Let's go over some more simple types.
 
 ```java
 int number = 3;
