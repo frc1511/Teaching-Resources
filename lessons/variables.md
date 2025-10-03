@@ -12,7 +12,7 @@ Variables are arguably the most important thing in programming any language. Var
 This is what the variable stores, some examples are:
     * `String` - Stores text, such as "Hello". String values are surrounded by double quotes.
     * `int` - stores integers (whole numbers), without decimals, such as 123 or -123.
-    * `double` - stores floating point numbers, with decimals, like 19.99 or -3.14159265 (for people with experience, we will not be using `float` in our code).
+    * `double` - stores floating point numbers, with decimals, like 19.99 or -3.14159265. Double values end with `d`. (for people with experience, we will not be using `float` in our code).
     * `char` - stores single characters, such as 'a' or 'B'. Char values are surrounded by single quotes
     * `boolean` - stores values with two states: `true` or `false`
 
@@ -42,7 +42,7 @@ System.out.println(message);
 The code above will print the value of the variable `message` which in this case is `"Hello World"`.
 
 ```java
-double pi = 3.14159265;
+double pi = 3.14159265d;
 System.out.println(pi); // Prints 3.14159265
 ```
 
@@ -69,3 +69,20 @@ System.out.println(number); // Prints 41
 number = 67;                // Changes number to 67
 System.out.println(number); // Prints 67
 ```
+### Using Variables
+Variables are useful in that they act as their value, here's some examples of variables being used.
+```java
+double x = 0.4d + 12.1d;    // After the =, we can put any expression that gives us a value, for example, math operations
+
+double y = 2.4d + 0.1d;
+
+double result = x + y;      // 12.5 + 2.5
+System.out.println(result); // Prints 15
+```
+```java
+double x = 1;
+x = x + 1;
+
+System.out.println(x); // Prints 2
+```
+In our next lesson we'll look at functions and how they are useful.
