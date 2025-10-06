@@ -3,9 +3,6 @@ layout: default
 title: Logic
 ---
 # Logic
-
-> # WIP
-
 ##### If statements
 `if` statements are used to check the status of variables. The simplest way to do this is with `boolean`s, because you can just use them by themselves. Other types require you to compare them in some way, so that the end result is `true` or `false`
 ```java
