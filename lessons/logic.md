@@ -29,7 +29,7 @@ if (1 + 1 == 2) {
     System.out.println("Math is mathin'");
 }
 
-// Reads like: "if one plus one does not equal two"
+// Reads like: "if one does not equal two"
 if (1 != 2) {
     System.out.println("Cool bro");
 }
