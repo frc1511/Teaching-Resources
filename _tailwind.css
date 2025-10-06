@@ -138,6 +138,15 @@
   & .footnotes p {
     @apply !text-zinc-600 text-sm;
   }
+  
+  & .ctc {
+    transition: opacity ease-out 0.2s;
+    opacity: 1;
+  }
+
+  & .hide {
+    opacity: 0;
+  }
 }
 
 @import "./homepage.css"
