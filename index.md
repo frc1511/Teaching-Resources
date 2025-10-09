@@ -19,4 +19,5 @@ title: Teaching Resources
 - [Functions in Classes](./lessons/functions-in-classes.html)
 
 ### Other:
+- [Syntax Refrence](./other/syntax-ref.html)
 - [Github Setup](./other/github-setup.html)
