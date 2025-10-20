@@ -22,6 +22,13 @@ if (location.search.includes("ctc")) {
             } else {
                 child.classList.add("hide")
             }
+            if (i == index) {
+                child.scrollIntoView({
+                    behavior: 'smooth', // 'auto', 'smooth', or 'instant'
+                    block: 'center',     // 'start', 'center', 'end', or 'nearest'
+                    inline: 'center'   // 'start', 'center', 'end', or 'nearest'
+                })
+            }
             i++;
         }
     })
