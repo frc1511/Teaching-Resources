@@ -49,7 +49,7 @@ if (condition1) {
 }
 ```
 
-### Classes
+### Classes and Functions
 Classes need to be named according to the file name and must use a capital letter at the start
 ```java
 class Car {
@@ -69,4 +69,18 @@ class Car {
 }
 ```
 - `public`: Accessable from instances of class and inside of its methods
-- `private`: Only accessable from inside the class's methods
+
+- `private`: Only accessable from inside the class's methods 
+
+Functions:
+```java
+modifiers reutrn_type function_name(argument_1_type arg1, arg_2_type arg2) {
+ return return_type;
+} 
+```
+Ex.:
+```java
+public double add(double number1, double number2) {
+ return number1 + number2;
+}
+```
