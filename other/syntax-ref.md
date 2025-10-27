@@ -1,9 +1,9 @@
 ---
 layout: default
-title: Syntax Refrence
+title: Syntax Reference
 ---
-# Syntax Refrence
-Here you'll find a quick refrence to some basic java syntax.
+# Syntax Reference
+Here you'll find a quick reference to some basic java syntax.
 
 ### Built-In Data Types
 * `String` - Stores text, such as "Hello". String values are surrounded by double quotes.
