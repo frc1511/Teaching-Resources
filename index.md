@@ -21,3 +21,4 @@ title: Teaching Resources
 ### Other:
 - [Syntax Reference](./other/syntax-ref.html)
 - [Github Setup](./other/github-setup.html)
+- [Installing Java](./other/installing-java.html)
